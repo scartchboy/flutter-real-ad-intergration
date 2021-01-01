@@ -29,7 +29,7 @@ class _HomepageState extends State<Homepage> {
 
     BannerAd buildBannerad() {
       return BannerAd(
-          adUnitId: null,
+          adUnitId: "real ad unit id",
           size: AdSize.banner,
           listener: (MobileAdEvent event) {
             if (event == MobileAdEvent.loaded) {
